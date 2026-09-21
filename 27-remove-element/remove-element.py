@@ -1,0 +1,12 @@
+class Solution:
+    def removeElement(self, nums: list[int], val: int) -> int:
+        write=0
+        count=0
+        for read in range(len(nums)):
+            if nums[read]!=val:
+                nums[write]=nums[read]
+                write+=1
+        return write
+        return nums
+
+        
